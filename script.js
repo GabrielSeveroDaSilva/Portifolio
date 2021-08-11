@@ -27,3 +27,8 @@ function atualizarPreco(){
 
     document.querySelector("#preco").innerHTML = `R$ ${preco.toFixed(2)}`
 }
+
+const overlay = document.querySelector(".overlay");
+window.addEventListener("load", function(){
+    overlay.style.display = "none"
+})
